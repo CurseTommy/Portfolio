@@ -1,0 +1,12 @@
+@mixin displyFlex(
+	$flex-direction,
+	$justify-content,
+	$justify-items,
+	$flex-wrap
+) {
+	display: flex;
+	flex-direction: $flex-direction;
+	justify-content: $justify-content;
+	justify-items: $justify-items;
+	flex-wrap: $flex-wrap;
+}

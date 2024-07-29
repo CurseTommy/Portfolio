@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+	header > div {
+		max-width: 40%;
+	}
+
+	ul li {
+		margin-top: 1rem;
+	}
+
+	section.introduction {
+		@include displyFlex(column, center, center, wrap);
+
+		& div {
+			max-width: 100%;
+			padding: 10px;
+		}
+	}
+
+	footer {
+		min-height: 13rem;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	div.projects {
+		& div {
+			text-align: left;
+			max-width: 100%;
+			margin: 1rem 0;
+		}
+	}
+}
